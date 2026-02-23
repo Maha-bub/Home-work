@@ -1,8 +1,8 @@
-// var a =5 ;
-// do{
-//     console.log("This i a number:", a);
-//     a++;
-// }while(a<=10);
+var a =5 ;
+do{
+    console.log("This i a number:", a);
+    a++;
+}while(a<=10);
 
 
 
