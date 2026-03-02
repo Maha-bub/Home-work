@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count of array elements</title>
+</head>
+
+<body>
+    <script>
+        const numbers = [-12, 14, 125, 14, 25, 0, 45, 78, 14, -98, 0, 85, -75];
+
+        let negetive = 0;
+        let positive = 0;
+        let zero = 0;
+
+
+
+        for (let i = 0; i < numbers.length; i++) {
+            if (numbers[i] > 0) {
+                positive++;
+            }
+            else if (numbers[i] < 0) {
+                negetive++;
+            }
+            else {
+                zero++;
+            }
+        }
+
+        document.writeln("Total positive:", positive + "</br>")
+        document.writeln("Total Negetive:", negetive + "</br>")
+        document.writeln("Total Zero:", zero + "</br>");
+    </script>
+</body>
+
+</html>
